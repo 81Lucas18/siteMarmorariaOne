@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+title {
+    color: #000000;
+    position: relative;
+}
+
+.mainHeader {
+    position: fixed;
+    display: relative; 
+    z-index: 1;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+    line-height: normal;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    gap: 1100px;
+    
+    width: 1304px;
+    height: 30px;
+}
+
+.link {
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 30;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link:hover {
+    color: rgb(5, 238, 255)
+}
+
+ 
+.tudo {
+    display: flex;
+    flex-direction: column;
+}
+
+body img {
+    width: 1881px;
+    height: 4883px;
+    position: relative;
+}
+
+h1 {
+    width: 384px;
+    height: 155px;
+    left: 450px;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 11.52px;
+    position: relative;
+}
+
+ .fall {
+    width: 400px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: -900px;
+ }    
+
+p {
+    color: #000;
+    text-align: justify;
+    text-shadow: -4px 4px 4px #2222228e, 0px 4px 4px rgba(255, 255, 255, 0.425);
+    font-family: Poppins;
+    font-size: 3.75rem;
+    font-weight: 600;
+    letter-spacing: 15px;
+    transform: rotate(0deg);
+    align-self: center;
+}
+
+.branco {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 3.75rem;
+    font-weight: 600;
+    letter-spacing: 15px;
+    text-shadow: -4px 4px 4px #f3f3f39f, 0px 4px 4px rgba(255, 255, 255, 0.425);
+}
+.pedrasGeral {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 170px;
+    top: 200px;
+    width: 100%;
+}
+
+.pedrasGeral img {
+    width: 300px;
+    height: 400px;
+    transition:ease-in-out 0.5s;
+}
+
+.pedrasGeral img:hover {
+    transform: scale(1.1);
+}
+
+.pedra {
+    width: 20%;
+}
+
+h2 {
+    width: 500px;
+    height: 255;
+    top: 1750px;
+    left: 200px;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 10px;
+    position: relative;
+}
+
+.contato {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction:column-reverse;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-weight: 500;
+    letter-spacing: 9px;
+    position: relative;
+    text-shadow: 3px 2px 3px rgb(255, 255, 255);
+
+
+}
+.contato {
+    background: #000;
+    top: 2300px;
+    left: 700px;
+    width: 395px;
+    height: 100px;
+    padding: 30px;
+}
+
+.contato:hover {
+    background-color: #7e7e7e;
+    color: #000;
+    text-shadow: 3px, 2px, 3px rgb(0, 0, 0);
+}
+
+.fundo img {
+    background-size: cover;
+    background-position: center;
+    height: 450%;
+    width: 200%;
+    position: absolute; 
+ 
+}
